@@ -1,0 +1,27 @@
+img{
+        white-space: 0;
+        height: 400px;
+        width:400px;
+        transition: all 4s;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+h1{
+    color: rgb(245, 162, 190);
+    font-family: 'Lucida';
+    font-size: 4em;
+   border-right: 10px solid rgb(240, 131, 186);
+    border-bottom:12px solid rgb(255, 155, 171);
+    border-left: 10px solid rgb(244, 167, 167);
+    border-top: 10px solid rgb(255, 122, 144);
+    width: 1200px;
+    text-align: center;
+}
+img:hover {
+    transform: scale(1.1);
+}
